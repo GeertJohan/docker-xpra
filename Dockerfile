@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER "Geert-Johan Riemer <geertjohan@geertjohan.net>"
+MAINTAINER Geert-Johan Riemer <geertjohan@geertjohan.net>
 
 # install apt tools
 RUN sudo apt-get update && sudo apt-get -y install software-properties-common python-software-properties
